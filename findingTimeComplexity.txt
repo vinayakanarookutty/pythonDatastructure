@@ -1,0 +1,36 @@
+Finding the time complexity of an algorithm involves analyzing how the runtime of the algorithm grows with the size of the input. The big-O notation is commonly used to express the upper bound of the time complexity. Here are some common time complexities and their notations:
+
+O(1) - Constant Time Complexity:
+
+The algorithm's runtime does not depend on the size of the input.
+Examples: Accessing an element in an array using an index, basic arithmetic operations.
+O(log n) - Logarithmic Time Complexity:
+
+The runtime grows logarithmically with the size of the input.
+Examples: Binary search, some divide-and-conquer algorithms.
+O(n) - Linear Time Complexity:
+
+The runtime is directly proportional to the size of the input.
+Examples: Linear search, traversing an array.
+O(n log n) - Linearithmic Time Complexity:
+
+Common in efficient sorting algorithms like merge sort, heap sort, and quicksort.
+O(n^2) - Quadratic Time Complexity:
+
+The runtime is proportional to the square of the size of the input.
+Examples: Bubble sort, insertion sort.
+O(n^k) - Polynomial Time Complexity:
+
+The runtime is a polynomial function of the input size.
+Examples: Algorithms with nested loops, where the total number of nested loops is k.
+O(2^n) - Exponential Time Complexity:
+
+The runtime grows exponentially with the size of the input.
+Examples: Brute-force algorithms, recursive algorithms without memoization.
+O(n!) - Factorial Time Complexity:
+
+The runtime grows factorial with the size of the input.
+Examples: Permutation or combination-based algorithms.
+To determine the time complexity of an algorithm, you typically analyze the number of basic operations it performs as a function of the input size. You may also consider the worst-case, average-case, and best-case scenarios. In many cases, the dominant term (the term with the highest growth rate) is what is used in the big-O notation.
+
+Keep in mind that big-O notation provides an upper bound on the growth rate of an algorithm, and it describes how the algorithm's performance scales as the input size becomes arbitrarily large.
