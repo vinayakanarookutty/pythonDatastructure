@@ -1,0 +1,22 @@
+Asymptotic analysis is a mathematical method for describing the behavior of a function as the input approaches certain limits or tends to infinity. It is commonly used in computer science and algorithm analysis to analyze the efficiency of algorithms and to understand how their performance scales with input size.
+
+There are three commonly used notations in asymptotic analysis:
+
+Big O notation (O): This notation represents an upper bound on the growth rate of a function. If a function f(x) is said to be O(g(x)), it means that f(x) grows at most as fast as a constant multiple of g(x) for sufficiently large values of x. In other words, it provides an upper bound on the worst-case scenario.
+
+Example: If an algorithm has a time complexity of O(n^2), it means that the running time of the algorithm grows quadratically with the size of the input.
+
+Omega notation (Ω): This notation represents a lower bound on the growth rate of a function. If a function f(x) is said to be Ω(g(x)), it means that f(x) grows at least as fast as a constant multiple of g(x) for sufficiently large values of x. It provides a lower bound on the best-case scenario.
+
+Example: If an algorithm has a time complexity of Ω(n), it means that the running time of the algorithm grows linearly with the size of the input.
+
+Theta notation (Θ): This notation represents both upper and lower bounds on the growth rate of a function. If a function f(x) is said to be Θ(g(x)), it means that f(x) grows at the same rate as a constant multiple of g(x) for sufficiently large values of x. It provides a tight bound on the growth rate.
+
+Example: If an algorithm has a time complexity of Θ(n log n), it means that the running time of the algorithm grows at the same rate as the product of the input size and the logarithm of the input size.
+
+Asymptotic analysis is particularly useful in the context of algorithm analysis because it allows us to focus on the fundamental growth patterns of algorithms and ignore constant factors and lower-order terms, providing a high-level understanding of algorithmic efficiency.
+
+
+
+
+
