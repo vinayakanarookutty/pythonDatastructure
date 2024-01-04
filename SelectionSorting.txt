@@ -1,27 +1,3 @@
-Selection Sort Theory:
-Algorithm Overview:
-
-Input: An array of elements to be sorted.
-Output: A sorted version of the input array.
-Algorithm Steps:
-
-Initialization:
-The array is divided into two regions: the sorted region (initially empty) and the unsorted region (the entire array).
-Selection:
-Find the minimum element in the unsorted region.
-Swap it with the first element in the unsorted region.
-Expansion of Sorted Region:
-Expand the sorted region by considering the first element of the unsorted region as part of the sorted region.
-Repeat:
-Repeat steps 2 and 3 until the entire array is sorted.
-Time Complexity:
-Worst-case time complexity: O(n^2)
-
-Occurs when the array is in reverse order, and the algorithm makes maximum comparisons and swaps.
-Best-case time complexity: O(n^2)
-
-Occurs when the array is already sorted, and the algorithm still needs to make comparisons to confirm the minimum element.
-Average-case time complexity: O(n^2)
 
 The average time complexity remains quadratic, as the algorithm performs roughly the same number of comparisons and swaps for a randomly ordered array.
 Space Complexity:
